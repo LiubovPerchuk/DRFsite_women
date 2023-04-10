@@ -1,30 +1,49 @@
-# DRFsite
-simple django rest framework app
-Cloning the repository
---> Clone the repository using the command below :
+# DRFsite_women
+### Описание
+API django rest framework
 
-git clone https://github.com/leraks/DRFsite.git
+### Как запустить проект:
 
---> Create a virtual environment :
+#### 1. Клонируем репозиторий и заходим в папку с проектом
 
-# Let's install virtualenv first
-pip install virtualenv
+git clone git@github.com:LiubovPerchuk/DRFsite_women.git
 
-# Then we create our virtual environment
-virtualenv envname
---> Activate the virtual environment :
+#### 2. Создаем и активируем виртуальное окружение:
+    
+    python3 -m venv env
+    
+   * Если у вас Linux/macOS
 
-envname\scripts\activate
---> Install the requirements :
+    
+    source env/bin/activate
+    
 
-pip install -r requirements.txt
+   * Если у вас windows
 
-# Running the App
---> To run the App, we use :
+    
+    source env/scripts/activate
+    
 
-python manage.py runserver <br>
-⚠ Then, the development server will be started at http://127.0.0.1:8000/
+#### 3. Устанавливаем зависимости из файла requirements.txt:
+    
+    python3 -m pip install --upgrade pip
+    
+    pip install -r requirements.txt
+    
 
+#### 4. Выполняем миграции:
+    
+    python3 manage.py migrate
+    
+    
+#### 5. Запускаем проект:
+
+    
+    python3 manage.py runserver
+    
+    
+### Требования
+    
 # App Preview :
 ![image](https://user-images.githubusercontent.com/67760549/173012387-74097a8d-ccf4-4ff9-a56c-f32f15a74b1e.png)
 

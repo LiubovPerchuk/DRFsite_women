@@ -71,10 +71,10 @@ git clone git@github.com:LiubovPerchuk/DRFsite_women.git
     six==1.16.0
     social-auth-app-django==4.0.0
     social-auth-core==4.2.0
-sqlparse==0.4.2
-tzdata==2022.1
-uritemplate==4.1.1
-urllib3==1.26.9
+    sqlparse==0.4.2
+    tzdata==2022.1
+    uritemplate==4.1.1
+    urllib3==1.26.9
     
 # App Preview :
 ![image](https://user-images.githubusercontent.com/67760549/173012387-74097a8d-ccf4-4ff9-a56c-f32f15a74b1e.png)
